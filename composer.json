@@ -1,0 +1,17 @@
+{
+    "name": "vendor/test",
+    "description": "Test task",
+    "authors": [
+        {
+            "name": "Konstantin Nemchenko",
+            "email": "nemchenko.k.k@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">5.6"
+    },
+    "autoload": {
+        "classmap": ["classes/"]
+    }
+}

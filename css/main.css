@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+.form-record{
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.my-form-control{
+  display: block;
+  width: 190px;
+  margin: 10px auto;
+}
+.my-captcha{
+  display: block;
+  margin: 10px auto;
+}
+.record-text{
+  resize: none;
+}
+.captchaCorrectAnswer{
+  display: none;
+}
+.my-btn{
+  display: block;
+  width: 190px;
+  margin: 10px auto;
+}
+.inactive{
+  display: none;
+}
+.active{
+  display: block;
+}
+.record{
+  min-height: 65px;
+  margin: 50px 10px 50px;
+  position: relative;
+  overflow: hidden;
+}
+.record__img{
+  width: 65px;
+  height: 65px;
+  float: left;
+  background-image: url(../img/icon.svg);
+}
+.record__content{
+  width: 815px;
+  position: relative;
+  float: right;
+}
+.record__user-name{
+  margin-left: 30px;
+  font-family: Tahoma,sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.record__text{
+  margin-left: 15px;
+}
+.record__answer{
+  display: block;
+  margin-top: 5px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #000;
+}
+.record__answer:hover{
+  color: #000;
+}
+.--bordered{
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.answer{
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.answer__content{
+  width: 750px;
+  position: relative;
+  float: right;
+}
